@@ -1,0 +1,34 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #007EA7;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#profileimg {
+  border-radius: 50%;
+}
+
+.nacionalidade, .residencia {
+  color: #00171F;
+}
+
+.item1 {
+  font-size: 1em;
+}
+
+.item2 {
+  font-size: 1.2em;
+}
+
+.item3 {
+  font-size: 1.4em;
+}
