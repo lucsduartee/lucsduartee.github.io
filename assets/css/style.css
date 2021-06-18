@@ -70,14 +70,16 @@ a {
 
 .item1 {
   font-size: 1em;
+  font-weight: bold;
 }
 
 .item2 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .item3 {
-  font-size: 1.4em;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 span {
