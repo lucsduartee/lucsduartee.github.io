@@ -13,59 +13,72 @@
   </head>
 
   <body>
-    <main>
-      <h1>
-        Olá, meu nome é <a href="#profileimg">Lucas Duarte</a>. Bem vindx ao meu
-        portifólio!
+    <header>
+      <h1 class="welcome-text">
+        Olá, meu nome é <a href="#profileimg">Lucas Duarte</a>.
       </h1>
-      <img
-        id="profileimg"
-        src="./assets/img/profileimg.jpeg"
-        alt="Foto de perfil de Lucas Duarte"
-        width="300px"
-      />
 
-      <h2>Navegue pela página</h2>
-      <ul>
-        <li><a href="#quem-sou">Quem sou eu!</a></li>
-        <li><a href="#habilidades">Habilidade</a></li>
-        <li><a href="#hobbies">Hobbies</a></li>
-      </ul>
-
-      <h2 id="quem-sou">Quem sou eu!</h2>
-      <p>
-        Meu nome é Lucas Mateus Duarte Oliveira, tenho 25 anos. Sou graduando em
-        Física bacharelado pela Universidade Estadual de São Paulo. Gosto de
-        aprender coisas novas, principalmente relacionadas à tecnologia. Sou
-        <strong class="nacionalidade">brasileiro</strong> e atualmente moro em
-        <strong class="residencia">Jacareí - SP.</strong>
-      </p>
-
-      <h2 id="habilidades">Habilidades</h2>
-      <ol>
-        <li><strong>Soft Skills</strong></li>
-        <ul>
-          <li class="item1">Organização</li>
-          <li class="item2"><em>Gosto por estudos</em></li>
-          <li class="item3">Empatia</li>
+      <nav>
+        <ul class="navigation">
+          <li class="navigation--item"><a href="#quem-sou">Quem sou eu!</a></li>
+          <li class="navigation--item">
+            <a href="#habilidades">Habilidades</a>
+          </li>
+          <li class="navigation--item"><a href="#hobbies">Hobbies</a></li>
         </ul>
-        <br />
-        <li><strong>Hard Skills</strong></li>
-        <ul>
-          <li class="item1">Unix & Bash</li>
-          <li class="item2">Git e Github</li>
-          <li class="item3">HTML e CSS</li>
-        </ul>
-      </ol>
+      </nav>
+    </header>
 
-      <h2>Hobbies</h2>
-      <p>
-        Curto muito passar meu tempo livre jogando jogos eletrônicos da
-        <a href="https://www.riotgames.com/pt-br" target="_blank">Riot</a> como
-        por exemplo <strong>League of Legends</strong> e
-        <strong>Valorant</strong>, e gosto muito de assistir filmes e séries da
-        <a href="https://www.netflix.com/br/" target="_blank">Netflix</a>.
-      </p>
+    <main>
+      <section class="quem-sou">
+        <img
+          id="profileimg"
+          src="./assets/img/profileimg.jpeg"
+          alt="Foto de perfil de Lucas Duarte"
+          width="300px"
+        />
+
+        <div class="quem-sou_text">
+          <h2 id="quem-sou">Quem sou eu!</h2>
+          <p>
+            Meu nome é Lucas Mateus Duarte Oliveira, tenho 25 anos. Sou
+            graduando em Física bacharelado pela Universidade Estadual de São
+            Paulo. Gosto de aprender coisas novas, principalmente relacionadas à
+            tecnologia. Sou
+            <strong class="nacionalidade">brasileiro</strong> e atualmente moro
+            em
+            <strong class="residencia">Jacareí - SP.</strong>
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="habilidades">Habilidades</h2>
+        <ol>
+          <li><strong>Soft Skills</strong></li>
+          <ul>
+            <li class="item1">Organização</li>
+            <li class="item2"><em>Gosto por estudos</em></li>
+            <li class="item3">Empatia</li>
+          </ul>
+          <br />
+          <li><strong>Hard Skills</strong></li>
+          <ul>
+            <li class="item1">Unix & Bash</li>
+            <li class="item2">Git e Github</li>
+            <li class="item3">HTML e CSS</li>
+          </ul>
+        </ol>
+
+        <h2>Hobbies</h2>
+        <p>
+          Curto muito passar meu tempo livre jogando jogos eletrônicos da
+          <a href="https://www.riotgames.com/pt-br" target="_blank">Riot</a>
+          como por exemplo <strong>League of Legends</strong> e
+          <strong>Valorant</strong>, e gosto muito de assistir filmes e séries
+          da <a href="https://www.netflix.com/br/" target="_blank">Netflix</a>.
+        </p>
+      </section>
     </main>
   </body>
 </html>
