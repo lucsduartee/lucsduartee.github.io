@@ -37,26 +37,29 @@ a {
 #profileimg {
   border-radius: 50%;
   float: left;
-  width: 150px;
+  width: 130px;
+  padding-left: 15px;
 }
 
-.quem-sou {
+.quem-sou, .content {
   width: 75%;
   background-color: #00171F; 
   border-radius: 20px;
-  height: 150px;
-  margin: 0 auto;
+  height: auto;
+  margin: 20px auto;
   padding: 15px 10px;
+  box-shadow: 5px 5px 5px 3px rgba(255, 255, 255, .3);
 }
 
 .quem-sou_text {
-  margin-left: 200px;
+  margin-left: 180px;
   text-align: justify;
 }
 
 .nacionalidade, .residencia {
   color: #00bfff;
 }
+
 
 .item1 {
   font-size: 1em;
@@ -68,4 +71,9 @@ a {
 
 .item3 {
   font-size: 1.4em;
+}
+
+span {
+  color: #00bfff;
+  font-weight: bold;
 }
