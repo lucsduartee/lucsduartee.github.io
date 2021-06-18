@@ -11,6 +11,8 @@ header {
 h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
 }
 
 a {
@@ -33,6 +35,11 @@ a {
   margin: 0 30px;
   font-size: 20px;
 }
+
+.navigation--item a:hover {
+  text-decoration: underline;
+}
+
 
 #profileimg {
   border-radius: 50%;
@@ -76,4 +83,15 @@ a {
 span {
   color: #00bfff;
   font-weight: bold;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.icon {
+  width: 50px;
+  display: inline-block;
 }
